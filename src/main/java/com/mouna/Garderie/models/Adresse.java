@@ -1,9 +1,6 @@
 package com.mouna.Garderie.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.context.annotation.EnableMBeanExport;
 
 import javax.persistence.Column;
@@ -14,9 +11,11 @@ import javax.persistence.Embeddable;
 /////      ==>>>>>> donc f 3oudh bech kol wehed naa3mleou adresse wahdou
 // na3mel l classe hedhy lihom lkol
 @Data
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Embeddable
+
 public class Adresse {
     @Column(name="adresse1")
     private String adresse1;

@@ -2,14 +2,12 @@ package com.mouna.Garderie.models;
 
 import javax.persistence.*;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
 @Data
+
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true) // hedhy t3ayet l les methodes hashcode w w equals 9bal metehseb w par defaut c false
