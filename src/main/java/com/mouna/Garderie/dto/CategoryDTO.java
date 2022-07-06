@@ -14,7 +14,7 @@ import java.util.List;
 @Builder
 public class CategoryDTO {
     private Integer id;
-    private Integer code;
+    private String code;
 
     private String designation;
 
